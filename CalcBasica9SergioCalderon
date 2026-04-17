@@ -1,0 +1,22 @@
+cd C:\Users\Usuario\Documents\NetBeansProjects\CalcBasica-9-SergioCalderon; "JAVA_HOME=C:\\Program Files\\Java\\jdk-23" cmd /c "\"C:\\Program Files\\NetBeans-23\\netbeans\\java\\maven\\bin\\mvn.cmd\" -Dexec.vmArgs= \"-Dexec.args=${exec.vmArgs} -classpath %classpath ${exec.mainClass} ${exec.appArgs}\" -Dexec.appArgs= -Dexec.mainClass=com.mycompany.calcbasica.sergiocalderon.CalcBasica9SergioCalderon \"-Dexec.executable=C:\\Program Files\\Java\\jdk-23\\bin\\java.exe\" \"-Dmaven.ext.class.path=C:\\Program Files\\NetBeans-23\\netbeans\\java\\maven-nblib\\netbeans-eventspy.jar\" --no-transfer-progress process-classes org.codehaus.mojo:exec-maven-plugin:3.1.0:exec"
+Scanning for projects...
+
+-------------< com.mycompany:CalcBasica-9-SergioCalderon >--------------
+Building CalcBasica-9-SergioCalderon 1.0-SNAPSHOT
+  from pom.xml
+--------------------------------[ jar ]---------------------------------
+
+--- resources:3.3.1:resources (default-resources) @ CalcBasica-9-SergioCalderon ---
+skip non existing resourceDirectory C:\Users\Usuario\Documents\NetBeansProjects\CalcBasica-9-SergioCalderon\src\main\resources
+
+--- compiler:3.13.0:compile (default-compile) @ CalcBasica-9-SergioCalderon ---
+Recompiling the module because of changed source code.
+Compiling 2 source files with javac [debug release 23] to target\classes
+
+--- exec:3.1.0:exec (default-cli) @ CalcBasica-9-SergioCalderon ---
+------------------------------------------------------------------------
+BUILD SUCCESS
+------------------------------------------------------------------------
+Total time:  03:26 min
+Finished at: 2026-04-17T13:07:41-06:00
+------------------------------------------------------------------------
